@@ -1,0 +1,79 @@
+/* #000000 Black
+   #14213D Oxford Blue
+   #FCA311 Orange Web
+   #E5E5E5 Platinum
+   #FFFFFF White
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.packages-section {
+    width: 100vw;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.general_design {
+    width: 70vw;
+    background: #14213D;
+    color: #FFFFFFFF;
+    padding: 2rem;
+    margin: 1rem 0;
+    border: 4px solid #E5E5E5;
+    border-left: 0;
+    position: relative;
+    
+}
+
+.right {
+    float: right;
+    border-right: 0;
+    border-left: 4px solid #E5E5E5;
+}
+
+.right p {
+    text-align: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.marked {
+    font-size: .8rem;
+    padding: .2rem;
+    background: #FCA311;
+    display: inline-block;
+    position: absolute;
+    top: .6rem;
+    right: .6rem;
+}
+
+.title {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.subtitle {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #E5E5E5;
+}
+
+.desc {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+

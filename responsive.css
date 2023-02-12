@@ -1,0 +1,59 @@
+@media (min-width: 34.9rem) {
+    
+    ul.navlinks {
+        display: inline-block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .hero-section_text {
+        font-size: 1.7rem;
+    
+    }
+
+    .packages-title {
+        font-size: 1.7rem;
+    
+    } 
+
+    .packages-container {
+        width: 100%;
+        height: 100%;
+        padding: .6rem;
+        text-align: center;
+    }
+    
+    .package {
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+        /* padding: 2rem 1.5rem; */
+        max-width: 17.82rem;
+        /* min-width: 11.6rem; */
+    }
+
+
+
+    .pop_up {
+        min-width: 21.75rem;
+        max-width: 33rem;
+        height: 8.8rem;
+        background: #ffffff;
+        text-align: center;
+    
+    }
+
+    
+    .service {
+        display: inline-block;
+        width: 30%;
+        vertical-align: middle;
+    }
+
+    .footer p {
+        display: inline-block;
+        margin: 0 .5rem;
+    }
+}

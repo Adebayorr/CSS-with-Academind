@@ -1,0 +1,228 @@
+/* // COLORS // */
+/* #000000 Black
+   #14213D Oxford Blue
+   #FCA311 Orange Web
+   #E5E5E5 Platinum
+   #FFFFFF White
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background: url(../resources/pexels-jill-wellington-39853.jpg),  linear-gradient(267deg, rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) ;
+    background-position: 20% 20%;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    padding: .7rem;
+    position: relative;
+}
+
+.hero-section_text {
+    font-size: 1.4rem;
+    color: #E5E5E5;
+    position: absolute;
+    bottom: 2rem;
+
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+}
+
+
+
+.pop_up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 8.8rem;
+    background: #ffffff;
+    text-align: center;
+
+}
+
+.pop_up h2 {
+    font-size: 2.3rem;
+
+}
+
+.pop_up-container {
+    width: 100%;
+    margin: auto;
+}
+.action {
+    text-decoration: none;
+    color: #000000;
+    padding: .4rem .6rem;
+    background: #da0a0a;
+    font-weight: bold;
+    display: inline-block;   
+    width: 2.7rem;
+    height: 1.7rem;   
+}
+
+#yes {
+    background-color: #00ff2a;
+}
+
+.action:hover, .action:active {
+    background: #720a0a;
+}
+
+#yes:hover, #yes:active {
+    background: #0d6d1d;
+}
+
+
+.packages {
+    width: 100%;
+    /* height: 70vh; */
+    text-align: center;
+}
+
+.packages-title {
+    font-size: 1.4rem;
+    color: #000000;
+    margin: 1.2rem 0 0 0;
+
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-size: 1.4rem;
+}
+
+.package-title {
+    color: #ffec0c;
+    font-size: 1.4rem;
+}
+
+.package-price {
+    color: #343434;
+    font-size: 1.2rem;
+}
+
+.packages-container {
+    width: 100%;
+    height: 100%;
+    /* padding: .6rem; */
+    text-align: center;
+    margin: 1.2rem 0 0 0;
+}
+
+.package {
+    width: 100%;
+    padding: 1rem 0;
+    background: #c77e07;
+    margin: .5rem 0;
+    /* vertical-align: middle; */
+    /* padding: 2rem 1.5rem; */
+}
+
+ul.package-bullets {
+    padding: 0;
+    margin: 1rem 0 1.5rem 0;
+    list-style: none;
+    text-align: center;
+    font-size: .85rem;
+}
+
+.bullet {
+    margin-top: .4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#recommended {
+    background: #FFFFFF;
+    padding: .3rem .4rem;
+    border-radius: .2rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    /* font-size: 1.2rem; */
+}
+
+.package-btn {
+    background: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: .2rem .6rem;
+    border-radius: .3rem;
+}
+
+.package-btn:hover, .package-btn:active {
+    box-shadow: 3px 2.5px 2px rgba(255, 255, 255, 0.6);
+}
+
+.highlighted-plan {
+    background: #FCA311;
+}
+
+.services {
+    width: 100%;
+    background: #FCA311;
+    margin-top: 4.25rem;
+    padding: 1.5rem;
+}
+
+.services-container {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #FFFFFF;
+}
+
+.service {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.service-desc{
+    color: #FFFFFF;
+}
+.round {
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 6.5rem;
+    border: 2px solid #E5E5E5;
+    background-color: #343434;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.round svg {
+    width: 75%;
+    height: 75%;
+    margin-top: 1.25rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}

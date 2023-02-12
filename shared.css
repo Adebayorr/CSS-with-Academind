@@ -1,0 +1,120 @@
+/* // COLORS // */
+/* #000000 Black
+   #14213D Oxford Blue
+   #FCA311 Orange Web
+   #E5E5E5 Platinum
+   #FFFFFF White
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header  {
+    background: #000000;
+    width: 100%;
+    height: 5rem;
+
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    padding: 1.4rem .5rem;
+}
+
+.navlinks , .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.logo {
+    color: #FCA311;
+    font-size: 1.5rem;
+    height: 2.1rem;
+    width: 6.5rem;
+    padding: 0;
+}
+
+.logo span {
+    color: #14213D;
+    font-size: 1.9rem;
+
+}
+
+ul.navlinks {
+    list-style: none;
+    margin: 0;
+    border: 0;
+    width: calc(100% - 150px);
+    text-align: right; 
+    display: none;
+}
+
+li {
+    display: inline-block;
+    width: 8rem;
+    /* height: 2rem; */
+}
+
+a {
+    height: 100%;
+    width: 100%;
+    padding: .5rem 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.highlighted-link{
+    background: #FCA311;
+    /* padding: .4rem .1rem; */
+    border-radius: .1rem;
+    transition: .3s ease-in-out;
+    color: #ffffff;
+
+}
+
+.hamburger {
+    width: 2.5rem;
+    height: 1.2rem;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 25%;
+    background: #ffffff;
+    margin: .19rem;
+    border-radius: 1rem
+}
+
+.highlighted-link:hover , .highlighted-link:active{
+    background: #ffffff;
+    color: #FCA311;
+}
+
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4.25rem;
+}
+
+.footer p{
+    padding-top: .4rem;
+}
+
+.open {
+    display: none;
+}
